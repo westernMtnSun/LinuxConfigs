@@ -1,0 +1,4 @@
+#!/bin/bash
+date > /home/mbelz/DebConfig/redShift.txt
+redshift -O 3500 >> /home/mbelz/DebConfig/redShift.txt 
+echo "Completed Successfully" >> /home/mbelz/DebConfig/redShift.txt
